@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+NKo+Unjoined&family=Roboto:ital,wght@0,100;1,100&family=Skranji:wght@400;700&display=swap');
+
+
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 35%;
+    height: 100vh;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.left img {
+    width: 100%;
+}
+.banner {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    font-size: 40px;
+    align-self: center;
+    background-color: rgba(50, 50, 50, 0.3);
+    flex-direction: row-reverse;
+    margin-bottom: 200px;
+}
+
+.left a {
+    color: aliceblue;
+}
+
+.banner span {
+    align-self: center;
+    font-family: "skranji";
+    color: aliceblue;
+}
+.banner img {
+    display: inline;
+    
+    width: 100px;
+    height: 100px;
+}
+
+.left footer {
+    color: aliceblue;
+    position: absolute;
+    align-self: self-end;
+}
+
+.right {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #f7f8fa;
+
+
+}
+.warning-text {
+    width: 550px;
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    font-weight: 100;
+    color: rgb(35, 35, 35);
+    margin-bottom: 2px;
+}
+.inputs {
+    width: 61vw;
+    padding-top: 20px;
+    padding-left: 50px;
+    box-shadow: 0 1px 2px  rgba(32, 32, 32, 0.4);
+    position: relative;
+    z-index: 10;
+    padding-bottom: 20px;
+}
+
+form {
+    align-self: flex-start;
+    background-color: white;
+    margin: 20px 0px;
+}
+.bottom_form {
+    background-color: #f7f8fa;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.first_row{
+    display: flex;
+    margin: 10px 0px 0px 0px;
+}
+.second_row, .third_row{
+    display: flex;
+    margin: 20px 0px 0px 0px;
+}
+
+.first_row div{
+    margin: 10px 120px 10px 0px;
+}
+
+.second_row div{
+    margin: 10px 120px 10px 0px;
+}
+
+.third_row div{
+    margin: 10px 120px 10px 0px;
+}
+#inp_text {
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 35px;
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    cursor: pointer;
+}
+
+.bottom_form div {
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.bottom_form a{
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+input{
+    outline: none;
+    border: 1px solid rgb(158, 158, 158);
+    height: 17px;
+    border-radius: 2px;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input:focus {
+    border: solid 1px rgb(12, 167, 251);
+    box-shadow: 1px 1px 5px  rgba(78, 78, 78, 0.4) ;
+    
+    outline-offset: 0;
+}
+
+input:focus:invalid {
+    border-color: red;
+  }
